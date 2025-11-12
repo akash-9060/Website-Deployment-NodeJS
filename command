@@ -18,12 +18,12 @@ http://localhost:8080/login.html
 kubernetes
 
 
- docker build -t vipinde/user-service:latest
-  597  docker push vipinde/user-service:latest
-  598  docker build -t vipinde/auth-service:latest ./auth-service
-  599  docker push vipinde/auth-service:latest
-  600  docker build -t vipinde/web-frontend:latest ./web-frontend
-  601  docker push vipinde/web-frontend:latest
+ docker build -t akashdevops03/batch8-user:v1
+ 597  docker push akashdevops03/batch8-user:v1
+  598  docker build -t akashdevops03/batch8-auth ./auth-service
+  599  docker push akashdevops03/batch8-auth:v1
+  600  docker build -t akashdevops03/batch8-user:v1 ./web-frontend
+  601  docker push akashdevops03/batch8-web:v1
   602  cd k8s/
   603  vi namespace.yaml
   604  ls
