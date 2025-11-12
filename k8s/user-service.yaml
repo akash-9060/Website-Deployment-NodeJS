@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
         - name: user-service
-          image: vipinde/user-service:latest
+          image: akashdevops03/batch8-user:v1
           imagePullPolicy: IfNotPresent
           env:
             - name: MONGO_URL
