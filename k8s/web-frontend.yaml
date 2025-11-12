@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
         - name: web-frontend
-          image: vipinde/web-frontend:latest
+          image: akashdevops03/batch8-web:v1
           ports:
             - containerPort: 80
 ---
